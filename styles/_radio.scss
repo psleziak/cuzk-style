@@ -1,0 +1,32 @@
+.cuzk-radio-group {
+  display: flex;
+}
+
+.cuzk-radio-group--vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.cuzk-radio {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 0.4rem 0;
+
+  > input[type="radio"] {
+    margin: 0;
+  }
+  > input + label {
+    margin-left: 0.4rem;
+  }
+}
+.cuzk-radio + .cuzk-radio {
+  margin-left: 0.8rem;
+}
+
+.cuzk-radio-group--vertical {
+  .cuzk-radio + .cuzk-radio {
+    margin-left: 0;
+    padding-top: 0;
+  }
+}

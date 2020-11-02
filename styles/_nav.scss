@@ -1,0 +1,35 @@
+@import "variables";
+
+.cuzk-nav {
+  background-color: $cuzk-color-primary;
+  font-size: 1.36rem;
+
+  ul {
+    max-width: $cuzk-max-width;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  li {
+    list-style: none;
+    border: solid #6e9dbe;
+    border-width: 0 1px;
+  }
+  li + li {
+    border-left: 0;
+  }
+  li a,
+  li button {
+    height: 3.5rem;
+    padding: 0 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    border-radius: 0;
+  }
+}

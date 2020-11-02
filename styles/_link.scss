@@ -1,0 +1,10 @@
+a,
+.cuzk-link {
+  color: $cuzk-color-primary;
+
+  &:hover,
+  &:focus {
+    color: $cuzk-fg-focus !important;
+    background-color: $cuzk-bg-focus !important;
+  }
+}

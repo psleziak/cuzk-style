@@ -1,0 +1,17 @@
+@import "variables";
+
+button,
+.cuzk-button {
+  border: none;
+  background-color: $cuzk-color-primary;
+  color: white;
+  border-radius: 2px;
+  padding: 0 0.8rem;
+
+  &:hover,
+  &:focus {
+    color: $cuzk-fg-focus !important;
+    background-color: $cuzk-bg-focus !important;
+    cursor: pointer;
+  }
+}

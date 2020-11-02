@@ -1,0 +1,52 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $cuzk-font-family;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-width: $cuzk-min-width;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0.68rem 0;
+}
+
+hr {
+  border: none;
+  background-color: #aaa;
+  height: 1px;
+}
+
+input,
+button {
+  font-size: inherit;
+}

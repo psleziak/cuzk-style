@@ -1,0 +1,12 @@
+@import "variables";
+
+.cuzk-icon-button {
+  border: 1px solid $cuzk-color-border;
+  background-color: transparent;
+  color: $cuzk-color-primary;
+  height: 3.2rem;
+  width: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

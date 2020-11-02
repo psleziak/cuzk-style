@@ -1,0 +1,27 @@
+.cuzk-form-field {
+  display: flex;
+  flex-direction: column;
+  &__input {
+    display: flex;
+    > * + * {
+      margin-left: 0.4rem;
+    }
+  }
+  &__hint {
+    font-style: italic;
+  }
+}
+
+.cuzk-form-field + .cuzk-form-field {
+  margin-top: 0.8rem;
+}
+
+.cuzk-form-field--required {
+  .cuzk-form-field__label {
+    font-weight: 600;
+    &::after {
+      color: #c24100;
+      content: "(*) ";
+    }
+  }
+}

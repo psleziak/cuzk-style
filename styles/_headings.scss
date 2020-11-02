@@ -1,0 +1,23 @@
+@import "variables";
+
+.cuzk-h1 {
+  font-size: 2.4rem;
+}
+.cuzk-h2 {
+  font-size: 1.9rem;
+  color: #c24100;
+  font-weight: 600;
+  margin: 1.2rem 0 0.4rem 0;
+}
+.cuzk-h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 1rem 0 0.4rem 0;
+  color: $cuzk-color-primary;
+}
+.cuzk-h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.9rem 0 0.3rem 0;
+  color: #0d77d1;
+}

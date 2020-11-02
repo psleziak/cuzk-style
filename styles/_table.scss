@@ -1,0 +1,27 @@
+@import "variables";
+
+.cuzk-table {
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid $cuzk-color-border;
+  border-radius: 2px;
+
+  th {
+    text-align: left;
+    color: white;
+    background-color: $cuzk-color-primary;
+  }
+  th,
+  td {
+    padding: 0.5rem 0.8rem;
+  }
+
+  tr {
+    &:nth-child(odd) {
+      background-color: #eee;
+    }
+    &:hover {
+      background-color: #fddcad;
+    }
+  }
+}

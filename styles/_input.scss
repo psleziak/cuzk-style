@@ -1,0 +1,13 @@
+input:not([type]) {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #d2d3d4;
+  border-radius: 2px;
+  width: 100%;
+  flex: 1;
+
+  &:hover,
+  &:focus {
+    color: $cuzk-fg-focus !important;
+    background-color: $cuzk-bg-focus !important;
+  }
+}

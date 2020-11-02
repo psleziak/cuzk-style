@@ -1,0 +1,11 @@
+.cuzk-main {
+  flex: 1 1 auto;
+  font-size: 1.36rem;
+
+  &__content {
+    max-width: $cuzk-max-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 8px;
+  }
+}

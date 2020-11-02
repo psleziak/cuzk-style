@@ -1,0 +1,21 @@
+.cuzk-fieldset {
+  background-color: #eff5fb;
+  border: 1px solid $cuzk-color-border;
+  border-radius: 2px;
+  padding: 0.68rem;
+  margin: 1.36rem 0;
+
+  fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  legend {
+    padding: 0;
+    margin-bottom: 0.35rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $cuzk-color-primary;
+  }
+}
