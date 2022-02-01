@@ -45,7 +45,6 @@ hr {
   height: 1px;
 }
 
-input,
 button {
   font-size: inherit;
 }
@@ -68,7 +67,7 @@ button:hover, button:focus,
 }
 
 select {
-  height: 2.8rem;
+  height: 2.7rem;
   padding: 0.5rem 0.4rem;
   padding-top: 0.4rem;
   border: 1px solid #d2d3d4;
@@ -77,10 +76,9 @@ select {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  font-size: inherit;
 }
 
-select:focus {
+select:hover, select:focus {
   color: black !important;
   background-color: #ffd500 !important;
 }
@@ -459,6 +457,7 @@ textarea {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  font-family: Arial;
   resize: none;
 }
 
