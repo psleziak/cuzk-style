@@ -431,4 +431,20 @@ a:hover, a:focus,
 .cuzk-table tr:hover {
   background-color: #fddcad;
 }
+
+textarea {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #d2d3d4;
+  border-radius: 2px;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  resize: none;
+}
+
+textarea:hover, textarea:focus {
+  color: black !important;
+  background-color: #ffd500 !important;
+}
 /*# sourceMappingURL=styles.css.map */
