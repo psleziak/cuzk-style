@@ -4,6 +4,7 @@ input:not([type]) {
   border-radius: 2px;
   width: 100%;
   flex: 1;
+  min-height: 28px;
 
   &:hover,
   &:focus {
