@@ -56,6 +56,7 @@ button,
   color: white;
   border-radius: 2px;
   padding: 0 0.8rem;
+  min-height: 28px;
 }
 
 button:hover, button:focus,
@@ -423,6 +424,59 @@ a:hover, a:focus,
 .cuzk-radio-group--vertical .cuzk-radio + .cuzk-radio {
   margin-left: 0;
   padding-top: 0;
+}
+
+.cuzk-slider.noUi-target {
+  width: 100%;
+  height: 8px;
+  margin-top: 28px;
+  margin-bottom: 2px;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid #d2d3d4;
+  background: white;
+}
+
+.cuzk-slider.noUi-target .noUi-handle {
+  height: 18px;
+  width: 18px;
+  top: -6px;
+  right: -9px;
+  border-radius: 9px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #d2d3d4;
+}
+
+.cuzk-slider.noUi-target .noUi-handle::before, .cuzk-slider.noUi-target .noUi-handle::after {
+  display: none;
+}
+
+.cuzk-slider.noUi-target .noUi-handle:hover, .cuzk-slider.noUi-target .noUi-handle:focus {
+  background-color: #ffd500;
+}
+
+.noUi-connects:hover + .noUi-origin .noUi-handle {
+  background-color: #ffd500;
+}
+
+.cuzk-slider .noUi-pips-horizontal {
+  top: initial;
+  bottom: 10px;
+  padding: 0;
+  height: initial;
+}
+
+.cuzk-slider .noUi-pips-horizontal .noUi-marker {
+  bottom: 0;
+  background: #d2d3d4;
+  width: 2px;
+  height: 8px;
+}
+
+.cuzk-slider .noUi-pips-horizontal .noUi-value {
+  bottom: 18px;
 }
 
 .cuzk-table {
